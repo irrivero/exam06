@@ -1,7 +1,7 @@
 
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Start Program"] --> B{"Check Arguments"}
     B -- "argc != 2" --> C["Fatal Error: Wrong arguments"]
     B -- "argc == 2" --> D["Create TCP Socket"]
